@@ -110,7 +110,7 @@ $xml = new SimpleXMLElement($content);
 
 $files = getFiles($xml);
 
-$header = ['Coverage', 'Total Satements', 'Covered Statements', 'File'];
+$header = ['Coverage', 'Total Statements', 'Covered Statements', 'File'];
 
 $rows = [$header];
 
